@@ -8,7 +8,7 @@
         Arcken Team
     </author>
     <content src="index.html" />
-    <icon src="MMF.PNG" platform="android" width="48" height="48" />
+    <icon src="MMF.png" platform="android" width="48" height="48" />
     <access origin="*" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
