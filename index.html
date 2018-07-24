@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title></title>
+    <style type="text/css">
+        
+        #email
+        {
+            width: 86px;
+        }
+        #password
+        {
+            width: 86px;
+        }
+        #ButtonLogIn 
+        {
+            background-color: #99CCFF;
+            width:80px
+        }
+        .centered {
+              position: fixed;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              transform: -webkit-translate(-50%, -50%);
+              transform: -moz-translate(-50%, -50%);
+              transform: -ms-translate(-50%, -50%);
+              background-color:lightgoldenrodyellow;
+              padding:30px;
+        }
+      
+    </style>
+
+    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=1.4.2"></script>
+    <script>
+      
+        function convert() {
+            file = $("#file").val();            
+            alert(file);
+        }
+    </script>
+</head>
+  
+<body>
+    <div class="centered"  >
+        <table >
+            <tr>
+                <td  colspan="2" >
+                   <!-- <img src="media/bZZ-LOGO.png" /> -->
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td >
+                    File</td>
+                <td >
+                    <input id="file" type="file" /></td>
+            </tr>
+            <tr>
+                <td >
+                    Type</td>
+                <td >
+                    <input id="type" type="text" /></td>
+            </tr>
+            <tr>
+                <td> 
+                </td>
+                <td >
+                    <br />
+                    <input id="ButtonLogIn" type="button" 
+                        value="Convert" 
+                        onclick="convert();"/></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
